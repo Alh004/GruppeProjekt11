@@ -1,0 +1,24 @@
+@page
+@model GruppeProjekt.Pages.Kunder.DeleteKundeModel
+
+@{
+
+}
+<h1> Slet en kunde </h1>
+
+<form method="post">
+    <div class="form-group>">
+        <label>Kunde nummer</label> : @Model.Kunde.KundeNummer<br />
+        <br />
+        <label>Kunde navn</label> : @Model.Kunde.Navn<br />
+        <br />
+        <label>Kunde telefon</label>  : @Model.Kunde.Tlf<br />
+        <br />
+
+
+        
+        <input type="submit" value="Slet Kunde" class="btn btn-primary" asp-page-handler="Delete" asp-route-nummer="@Model.Kunde.KundeNummer"/>
+        
+        <input type="submit" value="Fortryd" class="btn btn-danger" asp-page-handler="Cancel" />
+    </div>
+</form>

@@ -1,0 +1,40 @@
+@page
+@using GruppeProjekt.model
+@model GruppeProjekt.Pages.Burgere.IndexModelP
+
+@{
+    ViewData["Title"] = "Burger";
+}
+
+<h1 class="jumbotron">Menu</h1>
+
+<form method="post">
+    Vil du oprette en ny burger <input type="submit" value="Opret" class="btn btn-primary" />
+</form>
+<p></p>
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>Pris</th>
+        <th>Navn</th>
+        <th>Størrelse</th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (Burger b in Model.Burgere)
+    {
+        <tr>
+            <td>@b.Pris</td>
+            <td>@b.Navn</td>
+            <td>@b.Størrelse</td>
+            <td><a asp-page="EditBurger" asp-route-nummer="@b.Pris">Ændre</a></td>
+            <td><a asp-page="DeleteBurger" asp-route-nummer="@b.Pris">Slet</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+

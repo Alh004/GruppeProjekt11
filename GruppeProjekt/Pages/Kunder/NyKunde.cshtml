@@ -1,0 +1,27 @@
+@page
+@model GruppeProjekt.Pages.Kunder.NyKundeModel
+
+@{
+}
+<h1>Opret en ny kunde</h1>
+
+
+<form method="post">
+    <div class="form-group>">
+        <label>Kunde nummer</label><br />
+        <input class="form-control" asp-for="@Model.NytKundeNummer" /><br />
+
+        <label>Kunde navn</label><br />
+        <input class="form-control" asp-for="@Model.NytKundeNavn" /><br />
+        <span asp-validation-for="@Model.NytKundeNavn" class="text-danger"></span><br/>
+
+
+        <label>Kunde telefon</label><br />
+        <input class="form-control" asp-for="@Model.NytKundetlf"class="text-danger"><br/>
+                <span asp-validation-for="@Model.NytKundetlf" class="text-danger"></span><br/>
+
+
+
+        <input type="submit" value="Opret Ny Kunde" class="btn btn-primary"/>
+    </div>
+</form>

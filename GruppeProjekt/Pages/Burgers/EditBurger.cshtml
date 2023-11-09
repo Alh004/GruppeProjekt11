@@ -1,0 +1,31 @@
+@page
+@model GruppeProjekt.Pages.Burgere.EditBurgerModel
+
+@{
+}
+
+<h1>Ændre en Burger</h1>
+
+
+<form method="post">
+    <div class="form-group>">
+        <label>Burger pris</label> : @Model.NytBurgerPris<br />
+        <input type="hidden" asp-for="@Model.NytBurgerPris" /><br />
+        <label class="text text-danger">@Model.ErrorMessage</label><br />
+        <br />
+
+
+        <label>Burger navn</label><br />
+        <input class="form-control" asp-for="@Model.NytBurgerNavn" /><br />
+        <span asp-validation-for="@Model.NytBurgerNavn" class="text-danger"></span><br />
+
+
+        <label>Burger størrelse</label><br />
+        <input class="form-control" asp-for="@Model.NytBurgerStørrelse" /><br />
+        
+        {
+            <input type="submit" value="Ændre Ny Burger" class="btn btn-success" asp-page-handler="Change" />
+        }
+        <input type="submit" value="Fortryd" class="btn btn-danger" asp-page-handler="Cancel" />
+    </div>
+</form>

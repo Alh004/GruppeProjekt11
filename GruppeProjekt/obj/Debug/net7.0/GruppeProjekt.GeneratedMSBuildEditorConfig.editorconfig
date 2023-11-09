@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GruppeProjekt
+build_property.RootNamespace = GruppeProjekt
+build_property.ProjectDir = /Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Burgers/DeleteBurger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnVyZ2Vycy9EZWxldGVCdXJnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Burgers/EditBurger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnVyZ2Vycy9FZGl0QnVyZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Burgers/IndexP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnVyZ2Vycy9JbmRleFAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Burgers/NyBurger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnVyZ2Vycy9OeUJ1cmdlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Kunder/DeleteKunde.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS3VuZGVyL0RlbGV0ZUt1bmRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Kunder/EditKunde.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS3VuZGVyL0VkaXRLdW5kZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Kunder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS3VuZGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Kunder/NyKunde.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS3VuZGVyL055S3VuZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-iunahl9j7d

@@ -1,0 +1,7 @@
+/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/bin/Release/net7.0/publish/GruppeProjekt
+/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/bin/Release/net7.0/publish/appsettings.Development.json
+/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/bin/Release/net7.0/publish/appsettings.json
+/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/bin/Release/net7.0/publish/GruppeProjekt.dll
+/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/bin/Release/net7.0/publish/GruppeProjekt.deps.json
+/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/bin/Release/net7.0/publish/GruppeProjekt.runtimeconfig.json
+/Users/ali2424/RiderProjects/GruppeProjekt/GruppeProjekt/bin/Release/net7.0/publish/GruppeProjekt.pdb

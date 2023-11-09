@@ -1,0 +1,27 @@
+@page
+@model GruppeProjekt.Pages.Kunder.EditKundeModel
+
+@{
+}
+
+<h1 class="jumbotron">Ændre Kunder</h1>
+<form method="post">
+    <div class="form-group>">
+        <label>Kunde nummer</label><br/>
+        <input type="hidden" asp-for="@Model.NytKundeNummer" />
+        <br/>
+
+        <label>Kunde navn</label><br />
+        <input class="form-control" asp-for="@Model.NytKundeNavn" /><br />
+        <span asp-validation-for="@Model.NytKundeNavn" class="text-danger"></span><br/>
+
+
+        <label>Kunde telefon</label><br />
+        <input class="form-control" asp-for="@Model.NytKundetlf" /><br />
+
+
+        <input type="submit" value="Ændre Ny Kunde" class="btn btn-primary"/>
+                <input type="submit" value="Fortryde" class="btn btn-danger" asp-page-handler="Cancel"/>
+        
+    </div>
+</form>
